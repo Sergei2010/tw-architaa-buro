@@ -1,32 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
-    <link rel="stylesheet" href="css/base.css">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <title>ARCHITAA - BURO</title>
+    <meta
+      name="description"
+      content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="/public/styles.css" />
+  </head>
+  <body class="font-main font-normal text-sm leading-5 text-white">
     <!-- Начало: Данный блок удалять нельзя -->
     <div class="maketforfigma">
-        <a href="https://t.me/s/FigmaToHTML" target="_blank">
-            <img src="img/logo.png">
-        </a>
-        <div>
-            <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
-            </p>
-            <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
-            </p>
-        </div>
+      <a href="https://t.me/s/FigmaToHTML" target="_blank">
+        <img src="img/logo.png" />
+      </a>
+      <div>
+        <p>
+          Данная верстка, была реализована пользователем в рамках обучающего телеграм канал
+          <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
+        </p>
+        <p>
+          При помощи
+          <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a>
+          пользователь получил оплату за верстку этого макета.
+        </p>
+      </div>
     </div>
     <!-- Конец -->
 
-    <div class="main">
-        В данном блоке размещается верстка
-    </div>
-
-</body>
+    <!-- CONTAINER -->
+    <div class="container flex flex-col my-1">
+        <!-- HEADER -->
+        <header class="flex flex-row justify-between items-center pr-12 py-7 pl-24 bg-dark">
+          <ul class="flex flex-row items-center gap-x-6">
+            <!-- FB -->
+            <li>
+              <a class="inline-block" href="#"
+                ><img src="assets/icons/fb.svg" alt="fb icon" class="w-5 h-5"
+              /></a>
+            </li>
+            <!-- INS -->
+            <li>
+              <a class="inline-block" href="#"
+                ><img src="assets/icons/ins.svg" alt="ins icon" class="w-5 h-5"
+              /></a>
+            </li>
+            <!-- LINE -->
+            <li class="flex flex-column items-center ml-16 -mr-16 z-10">
+              <img src="assets/lines/line-header.svg" alt="line img" class="w-[355px]" />
+            </li>
+            <!-- ARCHITAA -->
+            <li class="font-additional-1 2xl:text-3xl xl:text-2xl lg:text-2xl uppercase">Architaa</li>
+          </ul>
+          <!-- REC -->
+          <ul class="flex flex-row justify-center gap-x-8">
+            <li><img src="assets/icons/rec-header.svg" alt="rec icon" class="w-12 h-12" /></li>
+          </ul>
+        </header>
+        <!-- HERO -->
+        <section class="flex items-center h-[620px] bg-dark px-10">
+          <div class="z-10">
+            <!-- TITLE -->
+            <h1 class="font-additional-2 text-6xl font-normal leading-tight pl-24 mb-20 z-10">
+              Architecture <br />
+              Studio
+            </h1>
+            <!-- BTNS -->
+            <a href="#">
+              <ul class="flex flex-row items-center gap-x-3 ml-12 mb-8">
+                <li>
+                  <img src="assets/lines/line-hero.svg" alt="hero icon" class="w-[70px]" />
+                </li>
+                <li class="font-main font-normal text-lg text-yellow">Next</li>
+              </ul>
+            </a>
+            <a href="#">
+              <ul class="flex flex-row items-center gap-x-3 ml-20">
+                <li class="font-main font-normal text-lg text-yellow">Prev</li>
+                <li>
+                  <img src="assets/lines/line-hero.svg" alt="hero icon" class="w-[70px]" />
+                </li>
+              </ul>
+            </a>
+          </div>
+          <!-- IMG + 01 -->
+          <div class="place-self-start relative shrink-0 -ml-32">
+            <p>
+              <img src="assets/img/img-hero.png" alt="hero image" class="2xl:w-[1043px] 2xl:h-[724px] xl:w-[790px] xl:h-[710px] lg:w-[590px] lg:h-[610px]" />
+            </p>
+            <p
+              class="text-[180px] font-light leading-tight tracking-[-26.1px] opacity-20 absolute right-0 bottom-0"
+            >
+              01
+            </p>
+          </div>
+        </section>
+        <!-- DNA -->
+        <section class="flex bg-dark 2xl:w-[1420px] xl:w-[1180px] lg:w-[980px] pt-28 mb-28 z-10">
+          <!-- IMG -->
+          <div class="shrink-0 -mb-7">
+            <img src="assets/img/img-dna.png" alt="dna img" class="2xl:w-[550px] xl:w-[500px] lg:w-[450px] 2xl:h-[568px] xl:h-[568px] lg:h-[620px]" />
+          </div>
+          <!-- DNA + LINE + 2P + BTN -->
+          <div class="my-auto">
+            <div class="mt-9">
+              <div class="flex items-center gap-x-5 -ml-28">
+                <h2 class="font-additional-2 2xl:text-6xl xl:text-6xl lg:text-5xl font-normal leading-tight">Our DNA</h2>
+                <p>
+                  <img src="assets/lines/line-dna.svg" alt="dna line" class="w-[305px]" />
+                </p>
+              </div>
+            </div>
+            <p class="2xl:text-base font-normal leading-tight text-grey 2xl:mb-7 xl:mb-7 lg:mb-5 pl-12 pr-12">
+              Amet eu facilisi posuere ut at cras non ipsum proin nunc purus tellus ultricies velit
+              elementum ut dui sed augue ultrices phasellus
+              <span
+                ><a class="text-yellow underline underline-offset-2">ullamcorper condimentum</a></span
+              >
+              ut suspendisse viverra ornare sit venenatis
+            </p>
+            <p
+              class="font-additional-2 text-3xl font-normal leading-tight text-dark-grey mb-12 pl-12"
+            >
+              Amet eu facilisi posuere ut at cras non ipsum proin nunc purus tellus ultricies velit
+            </p>
+            <button
+              class="bg-yellow font-additional-2 text-lg text-dark font-bold underline underline-offset-2 px-5 py-2 ml-12"
+            >
+              Read More
+            </button>
+          </div>
+        </section>
+        <!-- SELECTED -->
+        <section class="pl-8 mb-36">
+          <div class="flex items-center gap-x-5">
+            <p>
+              <img src="assets/lines/line1-selected.svg" alt="selected line" class="w-[305px]" />
+            </p>
+            <h2 class="font-additional-2 text-6xl font-normal leading-tight text-dark mb-6">
+              Selected Work
+            </h2>
+          </div>
+          <p class="font-main text-base font-normal leading-tight text-dark mx-24 mb-20">
+            Amet eu facilisi posuere ut at cras non ipsum proin nunc purus tellus ultricies velit
+            elementum ut dui sed augue ultrices phasellus ullamcorper condimentum ut suspendisse
+            viverra ornare sit venenatis
+          </p>
+          <!-- 2IMG + TITLE -->
+          <div class="flex">
+            <!-- 01 + IMG1 -->
+            <div class="z-10 mt-4">
+              <p class="font-main text-9xl font-light leading-tight text-dark opacity-10 text-center">
+                01
+              </p>
+              <p class="2xl:w-[405px] xl:w-[385px]">
+                <img src="assets/img/img1-selected.png" alt="selected img" />
+              </p>
+            </div>
+            <!-- IMG2 + BTN -->
+            <div class="2xl:w-[570px] xl:w-[500px] shrink-0 -ml-20 mt-12">
+              <p class="mb-6"><img src="assets/img/img2-selected.png" alt="selected img" /></p>
+              <button
+                class="bg-yellow font-additional-2 text-lg text-dark font-bold underline underline-offset-2 px-11 py-3 ml-28"
+              >
+                View Case
+              </button>
+            </div>
+            <!-- TITLE + P + BTNS -->
+            <div class="ml-8 2xl:mr-20 xl:mr-15 lg:mr-10 place-self-end">
+              <h2 class="font-additional-2 text-5xl font-normal text-dark text-center mb-8">
+                Louis Vuitton
+              </h2>
+              <p class="font-main text-base font-normal leading-tight text-dark mb-14">
+                Amet eu facilisi posuere ut at cras non ipsum proin nunc purus tellus ultricies velit
+                elementum ut dui sed augue ultrices phasellus ullamcorper condimentum ut suspendisse
+                viverra ornare sit venenatis
+              </p>
+              <!-- BTNS -->
+              <div class="2xl:ml-40 xl:ml-30 lg:ml-10">
+                <a href="#">
+                  <ul class="flex flex-row items-center gap-x-3 ml-12 mb-8">
+                    <li>
+                      <img
+                        src="assets/lines/line2-selected.svg"
+                        alt="selected line"
+                        class="2xl:w-[80px] xl:w-[60px] lg:w-[50px]"
+                      />
+                    </li>
+                    <li class="font-main font-normal text-lg text-dark">Next</li>
+                  </ul>
+                </a>
+                <a href="#">
+                  <ul class="flex flex-row items-center gap-x-3 ml-20">
+                    <li class="font-main font-normal text-lg text-dark">Prev</li>
+                    <li>
+                      <img
+                        src="assets/lines/line2-selected.svg"
+                        alt="selected line"
+                        class="2xl:w-[80px] xl:w-[60px] lg:w-[50px]"
+                      />
+                    </li>
+                  </ul>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- WHY -->
+        <section class="mb-28">
+          <div class="pl-24 pr-24">
+            <!-- WHY BLACK -->
+            <div class="bg-dark w-[1040px] ml-auto pb-28">
+              <div class="flex items-center gap-x-3 pt-8 pl-8 mb-6">
+                <p>
+                  <img src="assets/lines/line-why.svg" alt="why line" class="w-[275px]" />
+                </p>
+                <h2 class="font-additional-2 2xl:text-6xl xl:text-6xl lg:text-5xl font-normal leading-tight text-white mb-5">
+                  Why Us
+                </h2>
+              </div>
+              <p
+                class="font-main text-base font-normal leading-tight tracking-tight text-grey mb-7 2xl:pl-44 xl:pl-40 lg:pl-36 2xl:pr-24 xl:pr-20 lg:pr-16"
+              >
+                Amet eu facilisi posuere ut at cras non ipsum proin nunc purus tellus ultricies velit
+                elementum ut dui sed augue ultrices phasellus
+                <span
+                  ><a class="text-yellow underline underline-offset-2"
+                    >ullamcorper condimentum</a
+                  ></span
+                >
+                ut suspendisse viverra ornare sit venenatis
+              </p>
+            </div>
+            <!-- WHY YELLOW -->
+            <div class="flex items-center -mt-32">
+              <div
+                class="font-main text-sm font-semibold text-dark bg-yellow w-[370px] h-[354px] px-10 pt-20 -mt-12"
+              >
+                <p>
+                  Amet eu facilisi posuere ut at cras non ipsum proin nunc purus tellus ultricies
+                  velit elementum ut dui sed augue ultrices phasellus ullamcorper condimentum ut
+                  suspendisse viverra ornare sit venenatis
+                </p>
+              </div>
+              <!-- SHEET -->
+              <div
+                class="flex flex-col gap-y-3 justify-center items-center bg-white shadow-xl shadow-[rgba(0,0,0,0.10)] w-[170px] h-[170px] ml-20 2xl:ml-20 xl:ml-16 lg:ml-12 mt-10"
+              >
+                <p>
+                  <img src="assets/icons/sheet.svg" alt="sheet icon" />
+                </p>
+                <p class="font-main text-lg font-semibold leading-tight text-dark">
+                  Eco-Friendly
+                </p>
+              </div>
+              <!-- TOOLS -->
+              <div
+                class="flex flex-col gap-y-3 justify-center items-center bg-white shadow-xl shadow-[rgba(0,0,0,0.10)] w-[170px] h-[170px] 2xl:ml-10 xl:ml-8 lg:ml-6 mt-10"
+              >
+                <p>
+                  <img src="assets/icons/tools.svg" alt="sheet icon" />
+                </p>
+                <p class="font-main text-lg font-semibold leading-tight text-dark">
+                  Eco-Friendly
+                </p>
+              </div>
+              <!-- 24h -->
+              <div
+                class="flex flex-col gap-y-3 justify-center items-center bg-white shadow-xl shadow-[rgba(0,0,0,0.10)] w-[170px] h-[170px] 2xl:ml-10 xl:ml-8 lg:ml-6 mt-10"
+              >
+                <p>
+                  <img src="assets/icons/24.svg" alt="sheet icon" />
+                </p>
+                <p class="font-main text-lg font-semibold leading-tight text-dark">
+                  24*7 Support
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- BLOGS -->
+        <section class="mb-28">
+          <!-- BLOGS BLACK -->
+          <div class="w-[1236px] h-[445px] bg-dark">
+            <div class="flex items-center gap-x-3 pt-8 bg-dark">
+              <p>
+                <img src="assets/lines/line-blogs.svg" alt="blogs line" class="w-[305px]" />
+              </p>
+              <h2 class="font-additional-2 2xl:text-6xl xl:text-6xl lg:text-5xl font-normal leading-tight text-white mb-5">
+                Lataste Blogs
+              </h2>
+            </div>
+          </div>
+          <!-- BLOGS CARDS -->
+          <div class="flex gap-x-7 ml-[135px] -mt-48">
+            <!-- CARD-1 -->
+            <div
+              class="w-[370px] h-[390px] flex flex-col justify-between bg-[url('../assets/img/img1-blogs.png')] bg-no-repeat bg-cover bg-center"
+            >
+              <!-- YELLOW BUTTON-1 -->
+              <button
+                class="w-[73px] ml-6 mt-4 bg-yellow font-main text-sm font-normal leading-tight text-dark"
+              >
+                Intirior
+              </button>
+              <!-- BLACK TEXT-1 -->
+              <p
+                class="font-additional-2 text-center text-2xl font-normal leading-tight tracking-tighter text-white bg-dark mx-3 -mb-12 p-3"
+              >
+                Amet eu facilisi posuere ut at cras non ipsum
+              </p>
+            </div>
+            <!-- CARD-2 -->
+            <div
+              class="w-[370px] h-[390px] flex flex-col justify-between bg-[url('./assets/img/img2-blogs.png')] bg-no-repeat bg-cover bg-center"
+            >
+              <!-- YELLOW BUTTON-2 -->
+              <button
+                class="w-[73px] ml-6 mt-4 bg-yellow font-main text-sm font-normal leading-tight text-dark"
+              >
+                Intirior
+              </button>
+              <!-- BLACK TEXT-2 -->
+              <p
+              class="font-additional-2 text-center text-2xl font-normal leading-tight tracking-tighter text-white bg-dark mx-3 -mb-12 p-3"
+              >
+                Emu facilisi posuere ut at cras non ipsum proin
+              </p>
+            </div>
+            <!-- CARD-3 -->
+            <div
+              class="w-[370px] h-[390px] flex flex-col justify-between bg-[url('/assets/img/img3-blogs.png')] bg-no-repeat bg-cover bg-center"
+            >
+              <!-- YELLOW BUTTON-3 -->
+              <button
+                class="w-[73px] ml-6 mt-4 bg-yellow font-main text-sm font-normal leading-tight text-dark"
+              >
+                Intirior
+              </button>
+              <!-- BLACK TEXT-3 -->
+              <p
+              class="font-additional-2 text-center text-2xl font-normal leading-tight tracking-tighter text-white bg-dark mx-3 -mb-12 p-3"
+              >
+                Fasacilisi posuere ut at cras non ipsum proin
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- CLIENTS -->
+        <section class="mb-28">
+          <!-- OUR CLIENTS + LINE -->
+          <div class="my-auto pl-[135px]">
+            <div class="flex justify-between">
+              <div class="flex items-center 2xl:gap-x-16 xl:gap-x-12 lg:gap-x-8">
+                <p><img src="assets/img/img1-clietns.svg" alt="client img" class="w-[70px] h-[70px]"></p>
+                <p><img src="assets/img/img2-clients.svg" alt="client img" class="w-[70px] h-[70px]"></p>
+                <p><img src="assets/img/img3-clients.svg" alt="client img" class="w-[70px] h-[70px]"></p>
+                <p><img src="assets/img/img4-clients.svg" alt="client img" class="w-[70px] h-[70px]"></p>
+              </div>
+              <div class="flex items-center 2xl:gap-x-5 xl:gap-x-3 gl:gap-x-2">
+                <h2 class="font-additional-2 2xl:text-6xl xl:text-6xl lg:text-5xl font-normal leading-tight text-dark">Our Clients</h2>
+                <p>
+                  <img src="assets/lines/line-clients.svg" alt="dna line" class="2xl:w-[305px] xl:w-[255px] lg:w-[200px]" />
+                </p>
+              </div>
+            </div>
+        </section>
+        <!-- FOOTER -->
+        <footer class="h-[200px] flex items-center justify-around bg-dark">
+          <!-- COPYRIGHT -->
+          <p class="font-main text-base font-light leading-tight -rotate-90 -ml-10">
+            Copyright 2020
+          </p>
+          <!-- LINE + ARCHITAA -->
+          <ul class="flex flex-row items-center gap-x-6 -ml-12">
+            <!-- LINE -->
+            <li class="flex flex-column items-center -mr-16 z-10">
+              <img src="assets/lines/line-header.svg" alt="line img" class="2xl:w-[355px] xl:w-[225px] lg:w-[155px]" />
+            </li>
+            <!-- ARCHITAA -->
+            <li class="font-additional-1 2xl:text-3xl xl:text-2xl lg:text-2xl uppercase">Architaa</li>
+          </ul>
+          <!-- LINE -->
+          <p class=""><img src="assets/lines/line-footer.svg" alt="line img"></p>
+          <!-- LETTER -->
+          <div class="flex items-center 2xl:gap-x-3 xl:gap-x-2 lg:gap-x-1">
+            <p>
+              <img src="assets/icons/letter.svg" alt="letter icon">
+            </p>
+            <p>willie.jennings@example.com</p>
+          </div>
+          <!-- PHONE -->
+          <div class="flex items-center 2xl:gap-x-3 xl:gap-x-2 lg:gap-x-1">
+            <p>
+              <img src="assets/icons/phone.svg" alt="phone icon">
+            </p>
+            <p>(603) 555-0123</p>
+          </div>
+          <!-- POINT -->
+          <div class="flex items-center 2xl:gap-x-3 xl:gap-x-2 lg:gap-x-1">
+            <p>
+              <img src="assets/icons/point.svg" alt="point icon">
+            </p>
+            <p>8502 Preston Rd. Inglewood, Maine 98380</p>
+          </div>
+        </footer>
+      </div>
+  </body>
 </html>

@@ -1,0 +1,14 @@
+{
+  "name": "tw-architaa-buro",
+  "version": "1.0.0",
+  "description": "# Верстка макета Источник макета Telegram-канал [FIGMA | Макеты для верстки](https://t.me/+oXZSKMmXp6UyOGI6)",
+  "scripts": {
+    "build": "tailwindcss build -i src/main.css -o public/styles.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3"
+  }
+}
