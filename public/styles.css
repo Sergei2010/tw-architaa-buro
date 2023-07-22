@@ -927,6 +927,14 @@ video {
   background-image: url('/assets/img/img3-blogs.png');
 }
 
+.bg-\[url\(\'\.\.\/assets\/img\/img2-blogs\.png\'\)\]{
+  background-image: url('../assets/img/img2-blogs.png');
+}
+
+.bg-\[url\(\'\.\.\/assets\/img\/img3-blogs\.png\'\)\]{
+  background-image: url('../assets/img/img3-blogs.png');
+}
+
 .bg-cover{
   background-size: cover;
 }
